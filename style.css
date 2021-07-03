@@ -1,12 +1,14 @@
 body{
     background: #f8f6f6;    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    margin: auto;
 }
 .photo{
     border: 5px solid green;
     border-radius: 50%;
 }
-img { max-width: 50% } 
+
 #title, .subtitle,.post_tile{
     color: #505050
 }
@@ -30,15 +32,18 @@ a{
     margin: 10px;
     border-radius: 15px;
 }
+.post_image{
+    max-width: 50%;
+    margin:center;
+    border-radius: 5%;
+}
+
 .post_content{
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align:center ;
     
-}
-.post_image{
-    margin-bottom: 15px;
-    border-radius: 5%;
 }
 
 .context_list{
