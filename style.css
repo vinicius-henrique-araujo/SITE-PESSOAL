@@ -1,5 +1,6 @@
 body{
     background: #f8f6f6;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .photo{
     border: 5px solid green;
@@ -9,7 +10,13 @@ img { max-width: 50% }
 #title, .subtitle,.post_tile{
     color: #505050
 }
-
+#title{
+    text-transform: uppercase;
+}
+a{
+    text-decoration: line-through;
+    color: #505050;
+}
 .post_title{
     font-size: 15px;
     font-style: italic;
@@ -26,9 +33,18 @@ img { max-width: 50% }
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
     
 }
 .post_image{
     margin-bottom: 15px;
     border-radius: 5%;
+}
+
+.context_list{
+    list-style-type:none;
+    padding-left: 15px;
+}
+.context_list li a{
+    text-decoration: none;
 }
